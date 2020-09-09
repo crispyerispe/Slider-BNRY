@@ -42,11 +42,11 @@ const Slider = () => {
                     ></div>
                 </div>
 
-                <a className="carousel-control-prev" href="#slider" data-slide="prev">
-                <span className="carousel-control-prev-icon"></span>
+                <a className="carousel-control-prev tooltip" href="#slider" data-slide="prev">
+                <span className="carousel-control-prev-icon tooltipText"></span>
                 </a>
-                <a className="carousel-control-next" href="#slider" data-slide="next">
-                <span className="carousel-control-next-icon"></span>
+                <a className="carousel-control-next tooltip" href="#slider" data-slide="next">
+                <span className="carousel-control-next-icon tooltipText"></span>
                 </a>
             </div>
           
