@@ -17,7 +17,6 @@ const Slider = () => {
                     <li data-target="#slider" data-slide-to="4"></li>
 
                 </ul>
-
                 <div className="carousel-inner">
                     <div
                     className="carousel-item active"
