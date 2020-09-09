@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* heading */
+h1,
+h2,
+h3 {
+  font: normal normal 100 14px "Karla", sans-serif;
+  font-weight: bold;
+  line-height: normal;
+  margin: 0 0 0.6em;
+  bottom: 0;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 180%;
+}
+h3 {
+  font-size: 160%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+
+p {
+  font: normal normal 400 14px "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #515151;
+}
+
+/* Slider */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .sr-only,.text {font-size: 11px}
+}
+
+/* Slider */
+
